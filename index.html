@@ -7,25 +7,46 @@
     <title>Achadodo - Página Inicial</title>
     <style>
         body {{
-            text-align: center;
             font-family: Arial, sans-serif;
             background-color: #f7f7f7;
             margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }}
         .container {{
-            margin-top: 50px;
+            text-align: center;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }}
         img {{
-            width: 200px;
-            height: 200px;
+            width: 128px;
+            height: 128px;
+        }}
+        h1 {{
+            color: #333333;
+            margin-bottom: 20px;
+        }}
+        p {{
+            color: #555555;
+            margin: 10px 0;
         }}
         .footer {{
             margin-top: 20px;
+            font-size: 14px;
+            color: #777777;
         }}
         a {{
             color: #007BFF;
             text-decoration: none;
-            font-weight: bold;
+        }}
+        a:hover {{
+            text-decoration: underline;
         }}
     </style>
 </head>
@@ -34,9 +55,13 @@
         <h1>Bem-vindo ao Achadodo!</h1>
         <img src="sd.jpg" alt="Logo Achadodo">
         <p>Seu aplicativo para gerenciar postagens no Instagram de forma fácil e intuitiva.</p>
-    </div>
-    <div class="footer">
-        <p><a href="politica_privacidade_achadodo.html">Leia nossa Política de Privacidade</a></p>
+        <p>
+            <a href="politica_privacidade_achadodo.html">Política de Privacidade</a> | 
+            <a href="termos_servico_achadodo.html">Termos de Serviço</a>
+        </p>
+        <div class="footer">
+            <p>&copy; 2024 Achadodo. Todos os direitos reservados.</p>
+        </div>
     </div>
 </body>
 </html>
